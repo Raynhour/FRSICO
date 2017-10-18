@@ -1,0 +1,28 @@
+$main-color: #393d45;
+$red-color: #d4495a;
+$green-color: #33b185;
+
+$white-color: #fff;
+$black-color: #393939;
+$orange-color:#fb891b;
+$orangelight-color:#f56767;
+$blacktable-color:#2f302f;
+$grey-color:#f1f2f1;
+
+
+//Fonts
+$opensans:"Opensans",sans-serif;
+$opensansBold:"OpensansBold",sans-serif;
+//End Fonts
+
+$i: 10;
+@while $i < 101 {
+    .mb-#{$i} { margin-bottom: $i + px; }
+    $i: $i + 10;
+}
+
+$i: 10;
+@while $i < 101 {
+    .mt-#{$i} { margin-top: $i + px; }
+    $i: $i + 10;
+}

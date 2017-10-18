@@ -1,0 +1,1198 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+  <title>Test VueJS</title>
+  <!-- build:css -->
+  <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+  <link href="libs/lity/dist/lity.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/libs.css">
+  <!-- endbuild -->
+  <!-- build:css2 -->
+  <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="libs/lity/dist/lity.css">
+  <!-- endbuild -->
+  <!-- <script src="https://unpkg.com/vue/dist/vue.js"></script> -->
+
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+<main class="main">
+  <section class="start">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-xs-12 col-sm-12">
+          <h1 class="start__description">Создание реальной экономики будущего</h1>
+        </div>
+        <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+          <div class="start__box">
+            <h2 class="start__box-title">ICO</h2>
+            <p class="start__box-description">инвестиционные проекты Blockchain индустрии</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+          <div class="start__box">
+            <h2 class="start__box-title">Краундинвестинг</h2>
+            <p class="start__box-description">инвестиции в классический бизнес</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+          <div class="start__box">
+            <h2 class="start__box-title">Краундфандинг</h2>
+            <p class="start__box-description">инвестиции в творчество и благотворительность</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="promo">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="align-center">
+            <h2 class="promo__title">ICO Promo</h2>
+            <img src="img/frsbit.png" alt="logo" class="promo__logo">
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-4 col-sm-4">
+          <ul class="promo__list">
+            <li class="promo__item mt-20"><span class="promo__item-text">Pre - ICO - Криптовалюта FRScoin</li>
+            <li class="promo__item"><span class="promo__item-text">ICO -  криптовалюта FRScoin</li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-xs-8 col-sm-8">
+          <div class="box">
+            <span class="box__title box__title_module">До начала Pre - ICO осталось</span>
+            <span class="box__time box__time_left">00:00:00</span>
+            <a href="#" class="box__link">Узнать подробнее</a>
+          </div>
+          <div class="box">
+            <span class="box__title box__title_module">До начала - ICO осталось</span>
+            <span class="box__time box__time_left">00:00:00</span>
+            <a href="#" class="box__link">Узнать подробнее</a>
+          </div>
+        </div>
+        <div class="col-md-12 col-xs-12 col-sm-12">
+          <p class="promo__description">
+            Криптовалюта FRScoin - движущая сила свободной экономики нового тысячелетия!. Не подверженная волатильности, так как имеет стабильную экономическую стоимость 1,0 EUR, что идеально подходить для экономических процессов в реальном секторе экономики в том числе сбор средств на любые ICO проекты. Cозданная по уникальной технологии, позволяющей для Вас на базе основного FRScoin - Blokchain, создавать токены, финансовые системы, хранить документы, базы даных и многое другое.
+          </p>
+        </div>
+        <div class="col-md-7 col-xs-7 col-sm-7">
+          <h3 class="promo__list-title">
+            Технология реализации:
+          </h3>
+          <ul class="promo__list-techology">
+            <li class="promo__item-technology">
+              <span class="promo__item-technology-text">
+                Эмиссия 1 000 000 000 FRScoin
+              </span>
+            </li>
+            <li class="promo__item-technology">
+              <span class="promo__item-technology-text">
+                Уникальный сверхбыстрый алгоритм <strong>DPoS</strong>
+              </span>
+            </li>
+            <li class="promo__item-technology">
+              <span class="promo__item-technology-text">
+                Способ хранения криптовалюты: криптокошелек FRSbank.com
+              </span>
+            </li>
+          </ul>
+          <p class="promo__special">
+            * - специальное предложение для ранних инвесторов
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-5 col-xs-5">
+          <img src="img/1video.jpg" alt="" class="promo__video" title="Подробнее"" data-video="https://www.youtube.com/embed/vsZ-cfP2Oos">
+        </div>
+
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="table-wrap">
+          <div class="table-wrap_color">  
+            <div class="table__title table__title_orange">Курс 1.0 FRS - 1.0 EUR / 0.00300 BTC/ 30.00 UAH (грн)</div> 
+            <table class="table">
+              <tr class="table__row">
+                <td class="table__text table__text_bold">Инвест портфель</td>
+                <td class="table__text table__text_bold">Криптовалюта FRS</td>
+                <td class="table__text table__text_bold">Введите сумму FRS</td>
+                <td class="table__text table__text_bold">Премия</td>
+                <td class="table__text table__text_bold">Доход %</td>
+                <td class="table__text table__text_bold">ИТОГО</td>
+                <td class="table__text table__text_bold">FRS (EUR)</td>
+                <td class="table__text table__text_bold">BTC</td>
+                <td class="table__text table__text_bold">ETH</td>
+                <td class="table__text table__text_bold">UAH</td>
+                <td class="table__text table__text_bold"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text">"Silver Balance"</td>
+                <td class="table__text">50.0 - 300.0</td>
+                   <td class="table__text"><form action="" method="">
+                     <input type="text" class="table__text-input">
+                   </form></td>
+                <td class="table__text">+100%</td>
+                <td class="table__text">1.0 % / мес</td>
+                <td class="table__text">120 % за 3 мес</td>
+                <td class="table__text">10.0</td>
+                <td class="table__text">0.025</td>
+                <td class="table__text">0.25</td>
+                <td class="table__text">300.0</td>
+                <td class="table__text"><form action="">            <button class="table__btn-table">
+                купить 
+            </button>
+            </form></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+
+              </tr>
+              <tr class="table__row">
+                <td class="table__text">"Gold Balance"</td>
+                <td class="table__text">300,0 - 1000,0</td>
+                   <td class="table__text"><form action="" method="">
+                     <input type="text" class="table__text-input">
+                   </form></td>
+                <td class="table__text">+100%</td>
+                <td class="table__text">2.0 % / мес</td>
+                <td class="table__text">125% за 3 мес</td>
+                <td class="table__text">30.0
+</td>
+                <td class="table__text">0.15
+</td>
+                <td class="table__text">0,75</td>
+                <td class="table__text">1500.0</td>
+                <td class="table__text"><form action="">            <button class="table__btn-table">
+                купить 
+            </button>
+            </form></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text">"Platinum Balance"</td>
+                <td class="table__text">1000.0 - 10000.0</td>
+                   <td class="table__text"><form action="" method="">
+                     <input type="text" class="table__text-input">
+                   </form></td>
+                <td class="table__text">+100%</td>
+                <td class="table__text">3.0 % / мес</td>
+                <td class="table__text">130% за 3 мес</td>
+                <td class="table__text">300.0</td>
+                <td class="table__text">0.40</td>
+                <td class="table__text">7,5</td>
+                <td class="table__text">4000.0</td>
+                <td class="table__text"><form action="">            <button class="table__btn-table">
+                купить 
+            </button>
+            </form></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text">"Возмещение % по кредиту"</td>
+                <td class="table__text">100.0 - 10000.0</td>
+                   <td class="table__text"><form action="" method="">
+                     <input type="text" class="table__text-input">
+                   </form></td>
+                <td class="table__text">+100%</td>
+                <td class="table__text">3.0 % / мес</td>
+                <td class="table__text">130% за 3 мес</td>
+                <td class="table__text">300.0</td>
+                <td class="table__text">0.40</td>
+                <td class="table__text">7,5</td>
+                <td class="table__text">4000.0</td>
+                <td class="table__text"><form action="">            <button class="table__btn-table">
+                купить 
+            </button>
+            </form></td>
+              </tr>
+            </table>
+            </div>
+          </div>
+<!--           <form action="" method="" class="table__form">
+            <button class="table__btn">
+                купить 
+            </button>
+            <button class="table__btn">
+                купить 
+            </button>
+            <button class="table__btn">
+                купить 
+            </button>
+            <button class="table__btn">
+                купить 
+            </button>
+          </form> -->
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="table-wrap">
+          <div class="table-wrap_color">  
+            <div class="table__title">Online - торги</div> 
+            <table class="table">
+              <tr class="table__row">
+                <td class="table__text table__text_bold">Дата</td>
+                <td class="table__text table__text_bold">Время</td>
+                <td class="table__text table__text_bold">Тип сделки</td>
+                <td class="table__text table__text_bold">Цена</td>
+                <td class="table__text table__text_bold">Объем</td>
+                <td class="table__text table__text_bold">ИТОГО</td>
+                <td class="table__text table__text_bold">Доходность</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                   <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                   <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text">
+</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                   <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                   <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+            </table>
+            </div>
+            <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="box mt-20">
+            <span class="box__title">Всего собрано средств</span>
+            <span class="box__time">0.00 FRScoin</span>
+          </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="box mt-20 box_right">
+            <span class="box__title">Итоговая сумма инвестиций:</span>
+            <span class="box__time">0.00 FRScoin</span>
+          </div>
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <hr class="promo__line"> 
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="promo"> 
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="align-center">
+            <img src="img/frsplatfom.png" alt="logo" class="promo__logo">
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4">
+          <ul class="promo__list">
+            <li class="promo__item mt-20"><span class="promo__item-text">Pre -ICO - токены OpenBIT</li>
+            <li class="promo__item"><span class="promo__item-text">ICO - токены OpenBIT</li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-sm-8 col-xs-8">
+          <div class="box">
+            <span class="box__title box__title_module">До начала Pre - ICO осталось</span>
+            <span class="box__time box__time_left">00:00:00</span>
+            <a href="#" class="box__link">Узнать подробнее</a>
+          </div>
+          <div class="box">
+            <span class="box__title box__title_module">До начала - ICO осталось</span>
+            <span class="box__time box__time_left">00:00:00</span>
+            <a href="#" class="box__link">Узнать подробнее</a>
+          </div>
+        </div>
+<div class="col-md-12 col-sm-12 col-xs-12">
+          <p class="promo__description">
+            Токены ОBIT являются бессрочными, они преднозначены для того, что бы обеспечить Вас дивидентами от всех продаж и привлеченных инвестиций в рамках всех проводимых ICO. Ваши дивиденты составляют от 10 % и выше за все привлеченные капиталы в экономическую систему
+          </p>
+        </div>
+        <div class="col-md-7 col-sm-7 col-xs-7">  
+          <h3 class="promo__list-title">
+            Технология реализации:
+          </h3>
+          <ul class="promo__list-techology">
+            <li class="promo__item-technology">
+              <span class="promo__item-technology-text">
+                Эмиссия  300 000,00 токенов OBIT
+              </span>
+            </li>
+            <li class="promo__item-technology">
+              <span class="promo__item-technology-text">
+                Стартовая цена одного токена 10,00 FRScoin
+              </span>
+            </li>
+            <li class="promo__item-technology">
+              <span class="promo__item-technology-text">
+              Доходность токенов OBIT + 10%/сутки от всех суточных продаж
+              </span>
+            </li>
+          </ul>
+          <p class="promo__special">
+            * - специальное предложение для ранних инвесторов
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-5 col-xs-5">
+          <img src="img/2video.jpg" alt="" class="promo__video"  title="Подробнее"" data-video="https://www.youtube.com/embed/r5DyITFpUBY" >
+        </div>
+               <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="table-wrap">
+          <div class="table-wrap_color">  
+            <div class="table__title table__title_orange">Курс 1.0 FRS - 1.0 EUR / 0.00300 BTC/ 30.00 UAH (грн)</div> 
+            <table class="table">
+              <tr class="table__row">
+                <td class="table__text table__text_bold">Инвестиции</td>
+                <td class="table__text table__text_bold">токены OBIT</td>
+                <td class="table__text table__text_bold">Введите сумму OBIT</td>
+                <td class="table__text table__text_bold">Скидка %</td>
+                <td class="table__text table__text_bold">FRS (EUR)</td>
+                <td class="table__text table__text_bold">BTC</td>
+                <td class="table__text table__text_bold">ETH</td>
+                <td class="table__text table__text_bold">UAH</td>
+                <td class="table__text table__text_bold"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text">"Trade Bot"</td>
+                <td class="table__text">5.0 - 30.0 ZAR </td>
+                   <td class="table__text"><form action="" method="">
+                     <input type="text" class="table__text-input">
+                   </form></td>
+                <td class="table__text">5.0</td>
+                <td class="table__text">95.0</td>
+                <td class="table__text">0.03</td>
+                <td class="table__text">0.3</td>
+                <td class="table__text">2850.0</td>
+                <td class="table__text"><form action="">            <button class="table__btn-table">
+                купить 
+            </button>
+            </form></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text">"Active Bot"</td>
+                <td class="table__text">30,0 - 100,0 ZAR</td>
+                   <td class="table__text"><form action="" method="">
+                     <input type="text" class="table__text-input">
+                   </form></td>
+                <td class="table__text">7.0</td>
+                <td class="table__text">475.0</td>
+                <td class="table__text">0.15</td>
+                <td class="table__text">1.5
+</td>
+                <td class="table__text">15000.0
+</td>
+                <td class="table__text"><form action="">            <button class="table__btn-table">
+                купить 
+            </button>
+            </form></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text">"Top Bot"</td>
+                <td class="table__text">100.0 - 1000.00 ZAR</td>
+                   <td class="table__text"><form action="" method="">
+                     <input type="text" class="table__text-input">
+                   </form></td>
+                <td class="table__text">10.0</td>
+                <td class="table__text">1800.0</td>
+                <td class="table__text">0.40</td>
+                <td class="table__text">0.</td>
+                <td class="table__text">40000.0</td>
+                <td class="table__text"><form action="">            <button class="table__btn-table">
+                купить 
+            </button>
+            </form></td>
+              </tr>
+            </table>
+            </div>
+          </div>
+          <!-- <form action="" method="" class="table__form">
+            <button class="table__btn">
+                купить 
+            </button>
+            <button class="table__btn">
+                купить 
+            </button>
+            <button class="table__btn">
+                купить 
+            </button>
+          </form> -->
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="table-wrap">
+          <div class="table-wrap_color">  
+            <div class="table__title">Online - торги</div> 
+            <table class="table">
+              <tr class="table__row">
+                <td class="table__text table__text_bold">Дата</td>
+                <td class="table__text table__text_bold">Время</td>
+                <td class="table__text table__text_bold">Тип сделки</td>
+                <td class="table__text table__text_bold">Цена</td>
+                <td class="table__text table__text_bold">Объем</td>
+                <td class="table__text table__text_bold">ИТОГО</td>
+                <td class="table__text table__text_bold">Доходность</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                   <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                   <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text">
+</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                   <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                   <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+            </table>
+            </div>
+            <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="box mt-20">
+            <span class="box__title">Всего собрано средств</span>
+            <span class="box__time">0.00 FRScoin</span>
+          </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="box mt-20 box_right">
+            <span class="box__title">Итоговая сумма инвестиций:</span>
+            <span class="box__time">0.00 FRScoin</span>
+          </div>
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <hr class="promo__line"> 
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="promo"> 
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="align-center">
+            <img src="img/4_1.png" alt="logo" class="frsbank">
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4">
+          <ul class="promo__list">
+            <li class="promo__item mt-20"><span class="promo__item-text">Pre -ICO - токены OpenBIT</li>
+            <li class="promo__item"><span class="promo__item-text">ICO - токены OpenBIT</li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-sm-8 col-xs-8">
+          <div class="box">
+            <span class="box__title box__title_module">До начала Pre - ICO осталось</span>
+            <span class="box__time box__time_left">00:00:00</span>
+            <a href="#" class="box__link">Узнать подробнее</a>
+          </div>
+          <div class="box">
+            <span class="box__title box__title_module">До начала - ICO осталось</span>
+            <span class="box__time box__time_left">00:00:00</span>
+            <a href="#" class="box__link">Узнать подробнее</a>
+          </div>
+        </div>
+<div class="col-md-12 col-sm-12 col-xs-12">
+          <p class="promo__description">
+            В наш холдинг предприятий входит новейший банк цифрового поколения - FRSbank, это социально ориентированный банк созданный на базе BLOCKCHAIN технологий, прибыли от его деятельности будут разделены среди Вас, как полноправных членов сообщества свободных инвесторов! 
+            <br><br>- приоритетная задача FRSbank - создать надежную и легко масштабируемую инфраструктуру платежей для внедрения криптовалют в реальный сектор экономики, в реальные расчеты между пользователями и бизнесом, бизнесом и бизнесом и др.
+            <br><br>- Мы стоим на пороге создания глобальной дисконтной программы, расчеты будут происходить посредством ведущих криптовалют - BTC, ETH и FRScoin - это будет уникальное и массовое приложения на базе программного обеспечения Android и  IoS для глобального применения и создание персональных скидок для Вас, просто за счет лайков и рекомендаций сервисов и магазинов!
+            <br><br>- Глобальная система геолокации поможет найти наши магазины и сервисы в любом городе и стране Мира!
+            <br><br>- Вы можете строить собственный международный бизнес вместе с FRee Society Bank.
+            <br><br> Токен FRSbank, представляет право на участие в прибыли компании. Все держатели токенов имеют право на получение дивидендов в соответствии со своими долями. Прибыль компании будет распределена между всеми проданными токенами по итогам ICO.
+
+          </p>
+        </div>
+        <div class="col-md-7 col-xs-7 col-sm-7">  
+          <h3 class="promo__list-title">
+            Технология реализации:
+          </h3>
+          <ul class="promo__list-techology">
+            <li class="promo__item-technology">
+              <span class="promo__item-technology-text">
+                Финансовое название - FRB
+              </span>
+            </li>
+            <li class="promo__item-technology">
+              <span class="promo__item-technology-text">
+                Эмиссия токенов 1 000 000 FRB
+              </span>
+            </li>
+            <li class="promo__item-technology">
+              <span class="promo__item-technology-text">
+              Стартовая цена одного токена — 3,00 FRScoin (EUR).
+              </span>
+            </li>
+          </ul>
+          <p class="promo__special">
+            * - специальное предложение для ранних инвесторов
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-5 col-xs-5">
+         
+        </div>
+               <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="table-wrap">
+          <div class="table-wrap_color">  
+            <div class="table__title table__title_orange">Курс 1.0 FRS - 1.0 EUR / 0.00300 BTC/ 30.00 UAH (грн)</div> 
+            <table class="table">
+              <tr class="table__row">
+                <td class="table__text table__text_bold">Инвестиции</td>
+                <td class="table__text table__text_bold">токены OBIT</td>
+                <td class="table__text table__text_bold">Введите сумму OBIT</td>
+                <td class="table__text table__text_bold">Скидка %</td>
+                <td class="table__text table__text_bold">FRS (EUR)</td>
+                <td class="table__text table__text_bold">BTC</td>
+                <td class="table__text table__text_bold">ETH</td>
+                <td class="table__text table__text_bold">UAH</td>
+                <td class="table__text table__text_bold"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text">"Trade Bot"</td>
+                <td class="table__text">5.0 - 30.0 ZAR </td>
+                   <td class="table__text"><form action="" method="">
+                     <input type="text" class="table__text-input">
+                   </form></td>
+                <td class="table__text">5.0</td>
+                <td class="table__text">95.0</td>
+                <td class="table__text">0.03</td>
+                <td class="table__text">0.3</td>
+                <td class="table__text">2850.0</td>
+                <td class="table__text"><form action="">            <button class="table__btn-table">
+                купить 
+            </button>
+            </form></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text">"Active Bot"</td>
+                <td class="table__text">30,0 - 100,0 ZAR</td>
+                   <td class="table__text"><form action="" method="">
+                     <input type="text" class="table__text-input">
+                   </form></td>
+                <td class="table__text">7.0</td>
+                <td class="table__text">475.0</td>
+                <td class="table__text">0.15</td>
+                <td class="table__text">1.5
+</td>
+                <td class="table__text">15000.0
+</td>
+                <td class="table__text"><form action="">            <button class="table__btn-table">
+                купить 
+            </button>
+            </form></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text">"Top Bot"</td>
+                <td class="table__text">100.0 - 1000.00 ZAR</td>
+                   <td class="table__text"><form action="" method="">
+                     <input type="text" class="table__text-input">
+                   </form></td>
+                <td class="table__text">10.0</td>
+                <td class="table__text">1800.0</td>
+                <td class="table__text">0.40</td>
+                <td class="table__text">0.</td>
+                <td class="table__text">40000.0</td>
+                <td class="table__text"><form action="">            <button class="table__btn-table">
+                купить 
+            </button>
+            </form></td>
+              </tr>
+            </table>
+            </div>
+          </div>
+          <!-- <form action="" method="" class="table__form">
+            <button class="table__btn">
+                купить 
+            </button>
+            <button class="table__btn">
+                купить 
+            </button>
+            <button class="table__btn">
+                купить 
+            </button>
+          </form> -->
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="table-wrap">
+          <div class="table-wrap_color">  
+            <div class="table__title">Online - торги</div> 
+            <table class="table">
+              <tr class="table__row">
+                <td class="table__text table__text_bold">Дата</td>
+                <td class="table__text table__text_bold">Время</td>
+                <td class="table__text table__text_bold">Тип сделки</td>
+                <td class="table__text table__text_bold">Цена</td>
+                <td class="table__text table__text_bold">Объем</td>
+                <td class="table__text table__text_bold">ИТОГО</td>
+                <td class="table__text table__text_bold">Доходность</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                   <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                   <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text">
+</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                   <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                   <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+            </table>
+            </div>
+            <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="box mt-20">
+            <span class="box__title">Всего собрано средств</span>
+            <span class="box__time">0.00 FRScoin</span>
+          </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="box mt-20 box_right">
+            <span class="box__title">Итоговая сумма инвестиций:</span>
+            <span class="box__time">0.00 FRScoin</span>
+          </div>
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <hr class="promo__line"> 
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="promo"> 
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="align-center">
+            <img src="img/zarabot.jpg" alt="logo" class="promo__logo promo__logo_fix">
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4">
+          <ul class="promo__list">
+            <li class="promo__item mt-20"><span class="promo__item-text">Pre -ICO - токены OpenBIT</li>
+            <li class="promo__item"><span class="promo__item-text">ICO - токены OpenBIT</li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-sm-8 col-xs-8">
+          <div class="box">
+            <span class="box__title box__title_module">До начала Pre - ICO осталось</span>
+            <span class="box__time box__time_left">00:00:00</span>
+            <a href="#" class="box__link">Узнать подробнее</a>
+          </div>
+          <div class="box">
+            <span class="box__title box__title_module">До начала - ICO осталось</span>
+            <span class="box__time box__time_left">00:00:00</span>
+            <a href="#" class="box__link">Узнать подробнее</a>
+          </div>
+        </div>
+<div class="col-md-12">
+          <p class="promo__description">
+            Торговый робот дает инсайдерские сигналы по ведущим криптовалютным биржам на куплю/продажу криптовалют с вероятностю 75%. <br>Зарабатывать до 80 % и более в месяц легко, если с тобой ZARAbot.
+          </p>
+        </div>
+        <div class="col-md-7 col-sm-7 col-xs-7">
+          <h3 class="promo__list-title">
+            Технология реализации:
+          </h3>
+          <ul class="promo__list-techology">
+            <li class="promo__item-technology">
+              <span class="promo__item-technology-text">
+               Высоко-технологичная программа MATLAB - система прикладной математики для точной аналитики на рынке криптовалют.
+              </span>
+            </li>
+            <li class="promo__item-technology">
+              <span class="promo__item-technology-text">
+                Система аналитических прогнозов от опытных трейдеров.
+              </span>
+            </li>
+            <li class="promo__item-technology">
+              <span class="promo__item-technology-text">
+                Инсайдерская информация от ведущих игроков на рынке криптовалют.
+              </span>
+            </li>
+          </ul>
+          <p class="promo__special">
+            * - специальное предложение для ранних инвесторов
+          </p>
+        </div>
+                <div class="col-md-5 col-sm-5 col-xs-5">
+          <img src="img/3video.jpg" title="Подробнее"" data-video="https://www.youtube.com/embed/2icbMe90oZE" class="promo__video">
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="table-wrap">
+          <div class="table-wrap_color">  
+            <div class="table__title table__title_orange">Курс 1.0 FRS - 1.0 EUR / 0.00300 BTC/ 30.00 UAH (грн)</div> 
+            <table class="table">
+              <tr class="table__row">
+                <td class="table__text table__text_bold">Инвестиции</td>
+                <td class="table__text table__text_bold">токены ZAR</td>
+                <td class="table__text table__text_bold">Введите сумму ZAR</td>
+                <td class="table__text table__text_bold">Скидка %</td>
+                <td class="table__text table__text_bold">FRS (EUR)</td>
+                <td class="table__text table__text_bold">BTC</td>
+                <td class="table__text table__text_bold">ETH</td>
+                <td class="table__text table__text_bold">UAH</td>
+                <td class="table__text table__text_bold"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text">"Trade Bot"</td>
+                <td class="table__text">5.0 - 30.0 ZAR </td>
+                   <td class="table__text"><form action="" method="">
+                     <input type="text" class="table__text-input">
+                   </form></td>
+                <td class="table__text">5.0</td>
+                <td class="table__text">95.0</td>
+                <td class="table__text">0.03</td>
+                <td class="table__text">0.3</td>
+                <td class="table__text">2850.0</td>
+                <td class="table__text"><form action="">            <button class="table__btn-table">
+                купить 
+            </button>
+            </form></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text">"Active Bot"</td>
+                <td class="table__text">30,0 - 100,0 ZAR</td>
+                   <td class="table__text"><form action="" method="">
+                     <input type="text" class="table__text-input">
+                   </form></td>
+                <td class="table__text">7.0</td>
+                <td class="table__text">475.0</td>
+                <td class="table__text">0.15</td>
+                <td class="table__text">1.5
+</td>
+                <td class="table__text">15000.0
+</td>
+                <td class="table__text"><form action="">            <button class="table__btn-table">
+                купить 
+            </button>
+            </form></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text">"Top Bot"</td>
+                <td class="table__text">100.0 - 1000.00 ZAR</td>
+                   <td class="table__text"><form action="" method="">
+                     <input type="text" class="table__text-input">
+                   </form></td>
+                <td class="table__text">10.0</td>
+                <td class="table__text">1800.0</td>
+                <td class="table__text">0.40</td>
+                <td class="table__text">0.</td>
+                <td class="table__text">40000.0</td>
+                <td class="table__text"><form action="">            <button class="table__btn-table">
+                купить 
+            </button>
+            </form></td>
+              </tr>
+            </table>
+            </div>
+          </div>
+<!--           <form action="" method="" class="table__form">
+            <button class="table__btn">
+                купить 
+            </button>
+            <button class="table__btn">
+                купить 
+            </button>
+            <button class="table__btn">
+                купить 
+            </button>
+            <button class="table__btn">
+                купить 
+            </button>
+          </form> -->
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="table-wrap">
+          <div class="table-wrap_color">  
+            <div class="table__title">Online - торги</div> 
+            <table class="table">
+              <tr class="table__row">
+                <td class="table__text table__text_bold">Дата</td>
+                <td class="table__text table__text_bold">Время</td>
+                <td class="table__text table__text_bold">Тип сделки</td>
+                <td class="table__text table__text_bold">Цена</td>
+                <td class="table__text table__text_bold">Объем</td>
+                <td class="table__text table__text_bold">ИТОГО</td>
+                <td class="table__text table__text_bold">Доходность</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                   <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                   <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text">
+</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                   <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                   <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+                <td class="table__text"></td>
+              </tr>
+            </table>
+            </div>
+            <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="box mt-20">
+            <span class="box__title">Всего собрано средств</span>
+            <span class="box__time">0.00 FRScoin</span>
+          </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="box mt-20 box_right">
+            <span class="box__title">Итоговая сумма инвестиций:</span>
+            <span class="box__time">0.00 FRScoin</span>
+          </div>
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <hr class="promo__line promo__line_last"> 
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+          <div class="promo__modal"> 
+            <span class="promo__close" style="cursor: pointer;">
+              &times;
+            </span> 
+            <iframe width="90%" height="90%" class="promo__iframe" src="" frameborder="0" allowfullscreen></iframe>
+          </div>
+<script src="libs/jquery/dist/jquery.min.js"></script>
+
+<script src="js/libs.min.js"></script>
+<!-- build:js -->
+
+<script src="js/main.js"></script>
+<script src="libs/lity/dist/lity.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>

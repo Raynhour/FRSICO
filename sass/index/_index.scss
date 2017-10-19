@@ -104,6 +104,12 @@ body {
 				font-size: 18px;
 				color: $black-color;
 				font-family: $opensans;
+				& span {
+					font-size: 18px;
+					color: $black-color;
+					font-family: $opensansBold;
+	
+				}
 			}
 		}
 	}
@@ -111,8 +117,16 @@ body {
 		font-family: $opensans;
 		font-size: 14px;
 		margin: 0px;
-		padding-top: 35px;
+		
 		text-indent: 15px;
+		&-list {
+			padding-left: 0px;
+		}
+		&-item {
+			margin-bottom: 10px;
+			font-family: $opensans;
+			font-size: 14px;
+		}
 	}
 	&__video {
 		width: 100%;
@@ -121,6 +135,8 @@ body {
 		box-shadow: 0 2px 3px rgba(0,0,0,.7);
 		background:#c6c6c6;
 		cursor:pointer;
+		background-position:center center;
+		background-size:cover;
 	}
 	&__special {
 		padding-top: 60px;

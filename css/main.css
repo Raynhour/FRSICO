@@ -236,12 +236,27 @@ body {
   font-family: "Opensans", sans-serif;
 }
 
+.promo__item-technology-text span {
+  font-size: 18px;
+  color: #393939;
+  font-family: "OpensansBold", sans-serif;
+}
+
 .promo__description {
   font-family: "Opensans", sans-serif;
   font-size: 14px;
   margin: 0px;
-  padding-top: 35px;
   text-indent: 15px;
+}
+
+.promo__description-list {
+  padding-left: 0px;
+}
+
+.promo__description-item {
+  margin-bottom: 10px;
+  font-family: "Opensans", sans-serif;
+  font-size: 14px;
 }
 
 .promo__video {
@@ -252,6 +267,8 @@ body {
           box-shadow: 0 2px 3px rgba(0, 0, 0, 0.7);
   background: #c6c6c6;
   cursor: pointer;
+  background-position: center center;
+  background-size: cover;
 }
 
 .promo__special {

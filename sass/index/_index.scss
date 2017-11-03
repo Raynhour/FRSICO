@@ -77,6 +77,10 @@ body {
 		&_fix {
 			border-radius:0;
 		}
+		&_bmcoin {
+			width: 80px;
+			height: 80px;
+		}
 	
 	}
 	&__list {
@@ -119,6 +123,18 @@ body {
 		margin: 0px;
 		padding-top: 20px;
 		text-indent: 15px;
+		&-link {
+			display: block;
+			font-family: $opensans;
+			margin-bottom: 20px;
+			text-align:center;
+		}
+		&-bold {
+			font-size: 14px;
+			font-family: $opensans;
+			color: $black-color;
+			font-weight:bold;
+		}
 		&-list {
 			padding-left: 0px;
 		}
@@ -137,6 +153,18 @@ body {
 		cursor:pointer;
 		background-position:center center;
 		background-size:cover;
+		position: relative;
+		&::before {
+			position: absolute;
+			content:"";
+			top: 50%;
+			margin-top: -32px;
+			margin-left: -32px;		
+			bottom:0;
+			left: 50%;
+			right: 0;
+			background:url("../img/youtube.png") no-repeat;
+		}
 	}
 	&__special {
 		padding-top: 60px;
